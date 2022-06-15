@@ -1,7 +1,10 @@
 body {
     display: flex;
+    flex: 1;
     flex-direction: column;
+    justify-content: space-between;
     margin: 0;
+    
 }
 
 .header{
@@ -28,6 +31,7 @@ ul {
 .intro {
     background-color: burlywood;
     display: flex;
+    flex: 1;
     flex-direction: row;
     justify-content: space-around;
 }
@@ -40,5 +44,24 @@ ul {
 
 #intro-img {
     height: auto;
-    width: 40%;
+    width: 400px;
+}
+
+.information {
+    display: block;
+    text-align: center;
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box img {
+    height: 180px;
+    width: 180px;
+}
+
+.footer {
+    background-color: green;
 }
