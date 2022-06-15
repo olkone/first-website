@@ -8,7 +8,7 @@ body {
   display: flex;
   flex: 1;
   flex-direction: column;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, sans-serif;
   font-size: 18px;
   justify-content: space-between;
   margin: 0;
@@ -35,10 +35,20 @@ body {
 
 ul {
   display: inline-flex;
-  font-size: 18px;
   gap: 30px;
   list-style: none;
   margin: 0 2%;
+}
+
+a {
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .intro {
@@ -63,6 +73,7 @@ h1 {
   flex: 1;
   flex-flow: column wrap;
   font-size: 18px;
+  max-width: 600px;
   padding: 30px;
   width: 40%;
 }
@@ -74,6 +85,10 @@ h1 {
   border-radius: 4px;
   height: 36px;
   max-width: 90px;
+}
+
+button:hover {
+  background-color: #2f6bcb;
 }
 
 #intro-img {
@@ -89,6 +104,7 @@ h1 {
   flex: 1;
   flex-direction: column;
   justify-content: space-evenly;
+  padding: 20px 0;
 }
 
 h2 {
@@ -100,20 +116,21 @@ h2 {
   display: flex;
   flex: 1;
   flex-flow: row wrap;
-  justify-content: center;
+  gap: 24px;
+  justify-content: space-evenly;
 }
 
 .box-container .box {
   display: block;
   margin: 10px 0;
   text-align: center;
-  width: 240px;
+  width: 200px;
 }
 
 .box img {
   border-radius: 6px;
   height: 180px;
-  width: 180px;
+  width: 200px;
 }
 
 .quote-container {
@@ -131,7 +148,7 @@ h2 {
   font-weight: 100;
   display: flex;
   height: auto;
-  width: 50%;
+  width: 70%;
 }
 
 h3 {
@@ -158,7 +175,9 @@ h3 {
   color: white;
   display: flex;
   justify-content: space-between;
-  padding: 6px 20px;
+  padding: 10px 40px;
+  max-width: 600px;
+  height: 80px;
   width: 60%;
 }
 
@@ -170,7 +189,7 @@ h3 {
 .text p {
   color: #e5e7eb;
   font-size: 12px;
-  margin-top: -16px;
+  margin-top: -20px;
 }
 
 .box button {
@@ -182,13 +201,17 @@ h3 {
   min-width: 80px;
 }
 
+.box button:hover {
+  background-color: #2f6bcb;
+}
+
 .footer {
   align-items: center;
   color: #e5e7eb;
   background-color: #1f2937;
   display: flex;
   font-size: 14px;
-  height: 36px;
+  height: 42px;
   justify-content: center;
 }
 
