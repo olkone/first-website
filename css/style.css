@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.header {
+  align-items: center;
+  background-color: aquamarine;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-between;
+}
+
+#logo {
+  height: auto;
+  width: 50px;
+}
+
+ul {
+  display: inline-flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.intro {
+  background-color: burlywood;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.description {
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+}
+
+#intro-img {
+  height: auto;
+  width: 40%;
+}
+
+/*# sourceMappingURL=style.css.map */
