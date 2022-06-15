@@ -4,7 +4,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
-    
 }
 
 .header{
@@ -60,6 +59,29 @@ ul {
 .box img {
     height: 180px;
     width: 180px;
+}
+
+.quote-container {
+    align-items:flex-end;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.quote {
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    height: auto;
+}
+
+h3 {
+    display: flex;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-top: -18px;
 }
 
 .footer {
