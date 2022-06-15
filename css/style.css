@@ -1,3 +1,9 @@
+html {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
 body {
   display: flex;
   flex: 1;
@@ -10,7 +16,7 @@ body {
   align-items: center;
   background-color: aquamarine;
   display: flex;
-  flex: 1;
+  flex: 0;
   flex-direction: row;
   height: 80px;
   justify-content: space-between;
@@ -37,23 +43,41 @@ ul {
 
 .description {
   display: flex;
+  flex: 1;
   flex-flow: column wrap;
+  padding: 30px;
   width: 40%;
 }
 
+.description button {
+  max-width: 80px;
+}
+
 #intro-img {
-  height: auto;
-  width: 400px;
+  height: 260px;
+  width: 390px;
 }
 
 .information {
-  display: block;
-  text-align: center;
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .box-container {
   display: flex;
-  justify-content: space-evenly;
+  flex: 1;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.box-container .box {
+  display: block;
+  margin: 10px 0;
+  text-align: center;
+  width: 240px;
 }
 
 .box img {
@@ -88,6 +112,7 @@ h3 {
   background-color: aquamarine;
   align-items: center;
   display: flex;
+  flex: 1;
   justify-content: center;
 }
 
@@ -116,7 +141,9 @@ h3 {
 }
 
 .footer {
+  color: white;
   background-color: green;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
